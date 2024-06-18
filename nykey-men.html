@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>NYKEY</title>
+    <link href="./nykeylogo.jpeg" rel="icon">
+    <style>
+        .collapse{margin-left: 370px;}
+        @media only screen and (max-width:1020px){
+            .container-fluid>.collapse{margin-left: 0px;}
+            .overlay{overflow: scroll;}
+        }
+        .nav-link,.fa-shopping-bag{display:inline; }
+        .fa-shopping-bag{ color:white;}
+        p,a{text-align: center;}
+        .carousel-inner{background-color: lightgrey}
+        .img-fluid{width:900px;}
+        .d1{height: 117.5px;}
+        a{text-decoration: none;}
+
+
+        .container {
+        position: relative;}
+        .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 95%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:white;
+        text-align: justify;
+        border:3.5px solid black;
+        }
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        .text {
+          color: black;
+          font-size: 15px;
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          max-width: 300px;
+        }
+
+
+        .fa-arrow-circle-up{position: absolute; left:97%}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="index.html" class="navbar-brand">&nbsp;&nbsp;<img class="ima-fluid" src="./nykeylogo.jpeg" height="25px" width="25px"> </a>
+        <button class="btn btn-dark navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="mynav" >
+                <ul class="navbar-nav">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="nykey-new.html" class="nav-link">New Collections</a></li>
+                    <li><a href="nykey-men.html" class="nav-link active">Men</a></li>
+                    <li><a href="nykey-women.html" class="nav-link">Women</a></li>
+                    <li><a href="nykey-kids.html" class="nav-link">Kids</a></li>
+                    <br>
+                </ul>
+            </div>
+            <li class="nav-item"><a href="" class="nav-link "><i class="fa fa-shopping-bag"></i> <span class="badge bg-danger">0</span></a></li>
+        </div>
+    </nav>
+
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="mycar">
+        <div class="carousel-inner d1">
+            <div class="carousel-item">
+                <p><br>New Styles on Sale: Up to 40% Off.<br>
+                <a href="nykey-new.html"><b>Shop All Our New Markdowns</b></a></p><br>
+            </div>
+            <div class="carousel-item active">
+                <p>Move, Shop, Customise & Celebrate With Us.<br>
+                   No matter what you feel like doing today, It’s better as a Member.
+                </p>
+                <p>
+                <a href="" align="center" class="btn btn-primary" data-bs-target="#mymodal" data-bs-toggle="modal" ><b>Join Us</b></a>
+                </p>
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Login/</h1>
+                                <button class="btn btn-primary "> Sign UP</button>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action='https://forms.zohopublic.in/rajukolati5/form/nykey/formperma/uE8i39_K8kgB33z5NpT_FWNi0DK2avqEf_R-CkDwUHA/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                                    <input type="hidden" name="zf_referrer_name" value="">
+                                    <input type="hidden" name="zf_redirect_url" value="">
+                                    <input type="hidden" name="zc_gad" value="">
+                                
+                                    <div class="form-group">
+                                        <label>Username/E-mail</label><br>
+                                        <input class="form-control" type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="ex:abc@gmail.com" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="Enter a password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Conform Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine2" value="" fieldType=1 maxlength="255" placeholder="Conform your password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Mobile Number</label><br>
+                                        <input class="form-control" type="text" name="SingleLine3" value="" fieldType=1 maxlength="255" placeholder="ex:1234567890" />
+                                    </div>
+                                    <br>
+                                    <div  align="center">
+                                    <button class="btn btn-success" type="submit"><em>Submit</em></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav1">
+        <a href="#shoes">Foot-wear</a> |
+        <a href="#clothes">Clothing</a> |
+        <a href="#accessories">Accessories & Equipments</a>
+    </nav>
+    <h1  align="center" >Men's Collection</h1>
+    <div align="center">
+        <img src="./men.jpeg" alt="Men's Hoodies, Track & Shoes"  width="550px" height="350px" style="width: 50%;">
+        <img src="./men1.jpg" alt="Men's Shoes & Clothing"  width="350px" height="350px">
+    </div>
+
+    <br>
+    <section id="shoes">
+        <h2>&nbsp;&nbsp;&nbsp;Foot-wear</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ms1.png" alt="Men's Shoe" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Shoe<br>MRP : ₹ 3 995.00<br><br>A flash from the past, the Nike Court Royale 2 features the same design that has rocked the streets since the late '70s. Leather on the upper looks crisp and is easy to wear, while the large retro Swoosh design adds throwback appeal. To top it off, the modernised herringbone sole puts a twist on the classic look.
+                            <br><li>Colour Shown: White/Dark Teal Green</li>
+                            <li>Comfort insole.</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Court Royale 2 Low</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ms2.png" alt="Men's Slides" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Slides<br>MRP : ₹ 4 195.00<br><br>Your feet deserve nothing but the best. These slides offer lightweight foam and plush underfoot cushioning—premium comfort you'll look forward to after your next big game.
+                            <br><li>Colour Shown: Black/Iron Grey/Fire Red/White </li>
+                            <li>Hook-and-loop strap provides an adjustable, secure fit.</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Super Play </b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ms3.png " alt="Men's Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Shoes<br>MRP : ₹ 7 095.00<br><br>The fast break style of '80s basketball meets the fast-paced culture of today's game with the Nike Court Vision Low. The upper is inspired by old-school basketball sneakers, while the classic rubber cupsole has featured on some of the most iconic kicks of the past.
+                            <li>Colour Shown: White/Gum Yellow/University Blue </li>
+                            <li>The rubber cupsole adds durability and traction. </li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Court Vision Low </b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes1.png" alt="Basketball Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Basketball Shoes for Men<br>MRP : ₹ 17 295.00<br><br>The AJ XXXVIII is all about groundwork-about your running, turn-around jumpers—with low-to-the-court cushioning and a secure upper that helps support every move. It's also designed with sustainability, with at least 20% recycled content.
+                            <li>PF edition is designed to fit wide for play on outdoor courts.</li>
+                            <li>Colour Shown: White/Black/Pure Platinum/Metallic Gold.</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Air Jordan XXXVIII Low PF</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ms4.png" alt="Men's Slides" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Slides<br>MRP : ₹ 6 295.00<br><br>The first shoe to reveal Nike Air to the world gets transformed into a slide. Keeping the tried-and-tested cushioning and wavy design lines, this warm-weather addition to the Air Max family is as easy to slip on as it is to style.
+                            <li>Foam midsole, Rubber outsole.</li>
+                            <li>Colour Shown: White/Black/Light Neutral Grey/Royal Blue</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Air Max 1</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes2.png" alt="Men's Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Shoes<br>MRP : ₹ 15 295.00<br><br>We took elements from the AJ6, 7 and 8, making them into a completely new shoe that celebrates MJ's first 3-peat championship run. With leather, textile and nubuck details, these sneakers honour one legacy while encouraging you to cement your own.
+                            <li>Nike Air-Sole unit provide lightweight cushioning.</li>
+                            <li>Colour Shown: White/Black/Green Glow</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jumpman MVP</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="clothes">
+        <h2>&nbsp;&nbsp;&nbsp;Clothing</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear1.jpeg" alt="Men's Fleece Hoodie" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Fleece Hoodie<br>MRP : ₹ 3 697.00<br><br>This hoodie exists so you can go big or stay home—and be comfortable either way. It's made from fleece that's smooth on the outside, plush on the inside for that classic cosy feel.
+                            <li>Body: 80% cotton/20% polyester. Hood lining: 100% cotton.</li>
+                            <li>Colour Shown: Carbon Heather/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Essentials</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mc1.png" alt="Men's Nike NBA Max90 T-Shirt" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Nike NBA Max90 T-Shirt<br>MRP : ₹ 2 695.00<br><br>Show your hoops allegiance in this loose-fitting Boston Celtics T-shirt. The graphics let everyone know who your squad is, whether you're courtside or streetside. Dropped shoulders, longer sleeves and a roomy fit through the body and hips give the Max90 tee a relaxed and casual look.
+                            <li>100% cotton</li>
+                            <li>Colour Shown: Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Boston Celtics Courtside</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mc3.jpeg" alt="Men's Loopback Fleece Pullover Hoodie" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Loopback Fleece Pullover Hoodie<br>MRP : ₹ 3 795.00<br><br>You want a hoodie that's simple and looks good, right? Here you go. It's made from soft fleece that's smooth on the outside and looped on the inside, so you stay comfortable and warm.
+                            <li>Loopback fleece provides lightweight warmth for the changing weather.</li>
+                            <li>Colour Shown: Lobster/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Essentials</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mc2.png" alt="Men's Dri-FIT Running Shorts" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Dri-FIT Running Shorts<br>MRP : ₹ 5 195.00<br><br>Day or night, rain or shine, Nike Running Division offers the features you need to navigate the concrete. These shorts feature a supportive brief liner and a sweat-wicking material that's light and breathable. Plenty of pocket options, including a zip back phone pocket.
+                            <li>Body: 100% polyester. Briefs: 89% polyester/11% elastane.</li>
+                            <li>Colour Shown: Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Running Division</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear2.png" alt="Men's Woven Trousers" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Woven Trousers<br>MRP : ₹ 3 695.00<br><br>School, work, whatever—these are trousers for everywhere you go. Centre seams and an extra cargo pocket give you a look with just enough distinction. And the woven material is lightweight and airy so you can wear 'em all day, no problem.
+                            <li>Woven fabric feels lightweight, durable and flexes for ease of movement.</li>
+                            <li>Colour Shown: Legend Light Brown/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Essentials</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mc4.png" alt="Men's Running Shorts" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Men's Running Shorts<br>MRP : ₹ 3 495.00<br><br>A legendary record-holder, Steve Prefontaine is considered one of the most legendary runners in history. Celebrate this trailblazer of the sport with these Stride running shorts. Light and breathable with a supportive brief liner, these shorts feature "Stop Pre" graphics that keep Pre's rebel spirit alive.
+                            <li>Fabric: lightweight and breathable woven.</li>
+                            <li>Colour Shown: Summit White/Black/Gym Red/Picante Red</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Flex Stride Run Energy</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="accessories">
+        <h2>&nbsp;&nbsp;&nbsp;Accessories & Equipments</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg1.jpeg" alt="Adjustable Hat" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Adjustable Hat<br>MRP : ₹ 1 195.00<br><br>Is your outfit missing an understated dad hat to show the world your Jordan pride? We've got you. This classic structured fit has a sloped crown and a curved bill for a casual, broken-in look. And the metal Jumpman emblem makes a perfectly subtle statement.
+                            <li>Body: 100% nylon. Front Panel Lining: 65% polyester/35% cotton.</li>
+                            <li>Colour Shown: Black/Gunmetal</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Rise Cap</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg2.png" alt="Cross-Body Bag (4L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Cross-Body Bag (4L)<br>MRP : ₹ 1 395.00<br><br>The Nike Heritage Cross-Body Bag offers hands-free storage in a design you wear across the chest. A Futura logo print and easy-to-adjust strap make it a smart pick for everyday use. The main storage pocket and accessories pocket help keep your gear organised. This product is made from at least 65% recycled polyester.
+                            <li>Dimensions: 23cm H x 18cm W x 8cm D</li>
+                            <li>Colour Shown: Black/Black/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Heritage</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg3.jpeg" alt="Structured Cap" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Structured Cap<br>MRP : ₹ 1 995.00<br><br>This hat is just as at home on the baseball diamond as it is on city streets. It has a max depth for optimal comfort and a flat bill for style points. A snap-back closure gives you an adjustable fit, while embroidered eyelets let your head breathe.
+                            <li>Body: 100% cotton. Back of front panel: 100% polyester.</li>
+                            <li>Colour Shown: Seafoam/Black/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Flight MVP Pro</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg5.jpeg" alt="Backpack" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Backpack<br>MRP : ₹ 2 295.00<br><br>The Nike Sportswear Backpack is a new spin on an old classic. Its durable design features two large compartments and two external pockets for small-item storage, while the padded shoulder straps offer supportive comfort.
+                            <li>Multiple easy-access pockets for convenient, organised storage.</li>
+                            <li>Colour Shown: Obsidian/Black/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear Backpack</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg4.png" alt="Adjustable Unstructured Hat" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Adjustable Unstructured Hat<br>MRP : ₹ 1 195.00<br><br>You new everyday dad hat has landed. This six-panel design features an unstructured, low-profile crown, curved brim and adjustable closure. It's all brought together with an understated Jumpman graphic on the front.
+                            <li>Body: 63% cotton/37% nylon. Front Lining: 100% cotton.</li>
+                            <li>Colour Shown: Gym Red/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Club Cap</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./mg6.jpeg" alt="Training Duffel Bag (51L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Training Duffel Bag (51L)<br>MRP : ₹ 4 295.00<br><br>The Nike Utility Power Duffel Bag keeps your gear secure and ready for use while you're working towards your next level of fitness. Multiple pockets organise your training essentials, while several handles offer versatile carrying.
+                            <li>Dimensions: 56cm L x 28cm W x 30cm H</li>
+                            <li>Colour Shown: Black/Black/Enigma Stone</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Utility Power</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br><br>
+    <div  class="d-flex justify-content-center">
+        <ol class="pagination">
+            <li class="page-item"><a href="index.html" class="page-link">Home</a></li>
+            <li class="page-item"><a href="nykey-new.html" class="page-link">New Collections</a></li>
+            <li class="page-item"><a href="nykey-men.html" class="page-link active">Men</a></li>
+            <li class="page-item"><a href="nykey-women.html" class="page-link">Women</a></li>
+            <li class="page-item"><a href="nykey-kids.html" class="page-link">Kids</a></li>
+        </ol>
+        <a  href="#navbar"><i class="fa fa-arrow-circle-up fa-2x" style="color: black;" ></i> </a>
+    </div>
+    
+
+
+</body>
+</html>

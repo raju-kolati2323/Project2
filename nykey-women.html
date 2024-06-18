@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>NYKEY</title>
+    <link href="./nykeylogo.jpeg" rel="icon">
+    <style>
+        .collapse{margin-left: 370px;}
+        @media only screen and (max-width:1020px){
+            .container-fluid>.collapse{margin-left: 0px;}
+            .overlay{overflow: scroll;}
+        }
+        .nav-link,.fa-shopping-bag{display:inline; }
+        .fa-shopping-bag{ color:white;}
+        p,a{text-align: center;}
+        .carousel-inner{background-color: lightgrey}
+        .img-fluid{width:900px;}
+        .d1{height: 117.5px;}
+        a{text-decoration: none;}
+
+        .container {
+        position: relative;}
+        .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 95%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:white;
+        text-align: justify;
+        border:3.5px solid black;
+        }
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        .text {
+          color: black;
+          font-size: 15px;
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          max-width: 300px;
+        }
+
+        .fa-arrow-circle-up{position: absolute; left:97%}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="index.html" class="navbar-brand">&nbsp;&nbsp;<img class="ima-fluid" src="./nykeylogo.jpeg" height="25px" width="25px"></a>
+        <button class="btn btn-dark navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="mynav" >
+                <ul class="navbar-nav">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="nykey-new.html" class="nav-link">New Collections</a></li>
+                    <li><a href="nykey-men.html" class="nav-link">Men</a></li>
+                    <li><a href="nykey-women.html" class="nav-link active">Women</a></li>
+                    <li><a href="nykey-kids.html" class="nav-link">Kids</a></li>
+                    <br>
+                </ul>
+            </div>
+            <li class="nav-item"><a href="" class="nav-link "><i class="fa fa-shopping-bag"></i> <span class="badge bg-danger">0</span></a></li>
+        </div>
+    </nav>
+
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="mycar">
+        <div class="carousel-inner d1">
+            <div class="carousel-item">
+                <p><br>New Styles on Sale: Up to 40% Off.<br>
+                <a href="nykey-new.html"><b>Shop All Our New Markdowns</b></a></p><br>
+            </div>
+            <div class="carousel-item active">
+                <p>Move, Shop, Customise & Celebrate With Us.<br>
+                   No matter what you feel like doing today, It’s better as a Member.
+                </p>
+                <p>
+                <a href="" align="center" class="btn btn-primary" data-bs-target="#mymodal" data-bs-toggle="modal" ><b>Join Us</b></a>
+                </p>
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Login/</h1>
+                                <button class="btn btn-primary "> Sign UP</button>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action='https://forms.zohopublic.in/rajukolati5/form/nykey/formperma/uE8i39_K8kgB33z5NpT_FWNi0DK2avqEf_R-CkDwUHA/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                                    <input type="hidden" name="zf_referrer_name" value="">
+                                    <input type="hidden" name="zf_redirect_url" value="">
+                                    <input type="hidden" name="zc_gad" value="">
+                                
+                                    <div class="form-group">
+                                        <label>Username/E-mail</label><br>
+                                        <input class="form-control" type="text" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="ex:abc@gmail.com" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="Enter a password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Conform Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine2" value="" fieldType=1 maxlength="255" placeholder="Conform your password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Mobile Number</label><br>
+                                        <input class="form-control" type="text" name="SingleLine3" value="" fieldType=1 maxlength="255" placeholder="ex:1234567890" />
+                                    </div>
+                                    <br>
+                                    <div  align="center">
+                                    <button class="btn btn-success" type="submit"><em>Submit</em></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav1">
+        <a href="#shoes">Foot-wear</a> |
+        <a href="#clothes">Clothing</a> |
+        <a href="#accessories">Accessories & Equipments</a>
+    </nav>
+    <h1  align="center" >Women's Collection</h1>
+    <div align="center">
+        <img src="./women.jpeg" alt="Women's shoes, tops & trousers"  width="550px" height="350px" style="width: 50%;">
+        <img src="./women1.jpg" alt="Women's shoes, cloths & bags"  width="350px" height="350px">
+    </div>
+
+    <br>
+    <section id="shoes">
+        <h2>&nbsp;&nbsp;&nbsp;Foot-wear</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes3.png" alt="Women's Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Shoes<br>MRP : ₹ 8 295.00<br><br>Always in, always fresh. The Air Jordan 1 Low sets you up with a piece of Jordan history and heritage that's comfortable all day. Choose your colours, then step out in the iconic profile that's built with a high-end mix of materials and encapsulated Air in the heel.
+                            <li> For this go, he Low features a high-end mix of leather and synthetic materials in the upper.</li>
+                            <li>Colour Shown: White/White/Black </li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Air Jordan 1 Low </b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ws2.png" alt="Women's Sandals " class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Sandals<br>MRP : ₹ 7 095.00<br><br>Enjoy a calm, comfortable experience—wherever your day off takes you. Made from soft-yet-responsive foam, these versatile sandals feature an oversized design that's easy to wear. Whether you're lounging on the sofa, hanging in the city or holidaying on the coast, do it in effortless style.
+                            <li>Rubber outsole gives you excellent traction even on slippery surfaces.</li>
+                            <li>Colour Shown: Khaki/Khaki/Khaki</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Calm </b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes4.png" alt="Women's Shoes " class="img-fluid">
+                    <div class="overlay">
+                        <div class="text" >Women's Shoes<br>MRP : ₹ 11 895.00<br><br>Rise to the occasion in style that soars. This shoe reworks an icon's original magic with a platform sole and low-cut silhouette. Air cushioning keeps you lifted, and sleek leather in contrasting colours adds visual interest.
+                            <li>Leather provides a structured feel and a premium look.</li>
+                            <li>Colour Shown: White/White/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Air Jordan 1 Elevate Low</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ws1.png" alt="Women's Road Running Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Road Running Shoes<br>MRP : ₹ 11 895.00<br><br>Responsive cushioning provides an energised ride for everyday running. Experience lighter-weight energy with dual Air Zoom units and ReactX foam midsole.
+                            <li>A plush collar, tongue and sockliner for a secure and comfortable fit.</li>
+                            <li>Colour Shown: Summit White/Bright Crimson/Glacier Blue/Chrome</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Pegasus</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ws3.png" alt="Women's Sandals" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Sandals<br>MRP : ₹ 8 495.00<br><br>Office days, beach days—every day begins with footwear and the versatile Deja sandal works for pretty much all of them. Thick leather straps keep you sophisticated and secure, while a chunky rubber sole keeps you ready to get those steps in.
+                            <li>The premium full-grain leather upper adds durability and style.</li>
+                            <li>Colour Shown: Legend Pink/Metallic Gold</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Deja</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ws4.png" alt="Women's Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Shoes<br>MRP : ₹ 5 695.00 <br><br>Retro gets modernised with these sleek sneakers inspired by the Nike Daybreak. Era-echoing suede and nylon are paired in complementary colours, and the updated wedge midsole gives you an extra lift. Style, comfort, that iconic Waffle outsole—this is a perfect new addition to your daily rotation.
+                            <li>Lifted foam midsoles give you an elevated look and all-day comfort.</li>
+                            <li>Colour Shown: Sail/Black/Aster Pink</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Waffle Debut</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="clothes">
+        <h2>&nbsp;&nbsp;&nbsp;Clothing</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wc1.jpeg" alt="Women's Oversized Crew-Neck Logo Sweatshirt" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Oversized Crew-Neck Logo Sweatshirt<br>MRP : ₹ 3 795.00<br><br>Grounded in style, comfort and versatility. Midweight fleece keeps you cosy at home or on the go, while the oversized fit and bold branding ensure this sweatshirt is anything but basic.
+                            <li>Body: 80% Cotton/20% Polyester. Rib: 97% Cotton/3% Elastane.</li>
+                            <li>Colour Shown: Terra Blush/Burnt Sunrise/Sesame</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear Phoenix Fleece</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear3.jpeg" alt="Women's Graphic Crew-Neck Sweatshirt" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Graphic Crew-Neck Sweatshirt<br>MRP : ₹ 3 795.00<br><br>Get back to basics. Smooth on the outside with unbrushed loops on the inside, this midweight French terry sweatshirt is comfy enough to wear all year round, whatever the temp. Plus, the elegant graphics and heritage Jordan branding give this roomy layer a look that's second to none.
+                            <li>Body: 80% cotton/20% polyester. Rib: 97% cotton/3% elastane</li>
+                            <li>Colour Shown: Dark Grey Heather/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Brooklyn Fleece</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wc4.jpeg" alt="Women's T-shirt" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's T-shirt<br>MRP : ₹ 2 695.00<br><br>A vintage look. A roomy fit. A soft feel. What more could you want from a tee? Lightweight cotton has a nice drape, while embroidery adds an elevated finish to your look.
+                            <li>100% cotton</li>
+                            <li>Colour Shown: Bicoastal/Bicoastal</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wc3.png" alt="Women's Graphic Trousers" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Graphic Trousers<br>MRP : ₹ 3 895.00<br><br>Stylish, comfy, cool. Our lightweight French terry fleece feels smooth on the outside and extra-soft on the inside. An elastic waistband with drawcord helps keep your fit secure while a screen-printed script on the lower leg spotlights your kicks.
+                            <li>Body: 80% cotton/20% polyester. Pocket bag: 100% cotton.</li>
+                            <li>Colour Shown: Black/Sail</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Brooklyn Fleece</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wc2.png" alt="Women's Medium-Support High-Waisted 7/8 Leggings with Pockets" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Leggings with Pockets<br>MRP : ₹ 5 495.00<br><br>Our Nike Universa leggings help smooth and lift, stretching freely with your every move. Wherever your workout takes you, their squat-proof, mid-weight InfinaSmooth fabric gives you uncompromising comfort and feels cool and sleek to the touch. Plus, they're durable enough to flex.
+                            <li>Body: 76% nylon/24% elastane. Gusset Lining: 84% nylon/16% elastane.</li>
+                            <li>Colour Shown: Black/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Universa</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear4.jpeg" alt="Women's Open-Hem Trousers" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Open-Hem Trousers<br>MRP : ₹ 5 195.00<br><br>Weekend vibes get an official uniform with these roomy wide-leg trousers. Soft, midweight French terry fabric helps make them breathable enough to wear all year long while an elastic waistband with drawcord lets you find your perfect fit.
+                            <li>80% cotton/20% polyester.</li>
+                            <li>Colour Shown: Jade Smoke</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Flight Fleece</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="accessories">
+        <h2>&nbsp;&nbsp;&nbsp;Accessories & Equipments</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wg3.jpeg" alt="Jumpman Hat" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Jumpman Hat<br>MRP : ₹ 1 595.00<br><br>Every day, anywhere and everywhere—the Jordan Fly cap will see you through. It has an unstructured build, a flat bill and is made from soft, breathable cotton.
+                            <li>Webbed strap closure adjusts easily for the right fit.</li>
+                            <li>Colour Shown: Black/Dark Smoke Grey</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Fly</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wg4.jpeg" alt="Socks (3 Pairs)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">No-Show Socks (3 Pairs)<br>MRP : ₹ 995.00<br><br>Designed through the lens of sport, the Nike Sportswear Essential Ankle Socks feature a lightweight, no-show style with a soft feel ready for everyday wear.
+                            <li>No-show silhouette provides a low-profile feel.</li>
+                            <li>Colour Shown: White/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear Everyday Essential</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wg5.jpeg" alt="Adjustable Unstructured Hat" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Adjustable Unstructured Hat<br>MRP : ₹ 1 195.00<br><br>You new everyday dad hat has landed. This six-panel design features an unstructured, low-profile crown, curved brim and adjustable closure. It's all brought together with an understated Jumpman graphic on the front.
+                            <li>Body: 63% cotton/37% nylon. Front Lining: 100% cotton.</li>
+                            <li>Colour Shown: Gym Red/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Club Cap</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wg6.jpeg" alt="Women's Mini Backpack (10L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Women's Mini Backpack (10L)<br>MRP : ₹ 5 495.00<br><br>Mixing elegance with convenience, it features a large main compartment. The removable accessories bag adds the perfect charm while internal pockets help keep you organised. This product is made from at least 50% recycled polyester fibres.
+                            <li>36cm H X 28cm W X 15cm D</li>
+                            <li>Colour Shown: Black/Black/Dark Smoke Grey</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear Futura Luxe</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="wg2.jpeg" alt="Everyday No-Show Socks (3 Pairs)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Everyday No-Show Socks (3 Pairs)<br>MRP : ₹ 1 295.00<br><br>Add some comfort to your style with these no-show socks. Sweat-wicking power and breathability help keep your feet dry and cool so you can push you through your day with full force.
+                            <li>Dri-FIT Technology helps your feet stay dry and comfortable.</li>
+                            <li>Colour Shown: Multi-Colour</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Socks</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="wg7.png" alt="Mini Backpack (6L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Mini Backpack (6L)<br>MRP : ₹ 2 495.00<br><br>Made from densely woven polyester for heavyweight support, it features a main compartment with an internal mesh pocket for added organisation. A front zip pocket pairs with two side pockets to give you quick access to small essentials, while adjustable shoulder straps help you find your perfect fit.
+                            <li>20cm W x 25cm H x 10cm D</li>
+                            <li>Colour Shown: Coconut Milk/Picante Red/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Sportswear Futura 365</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    
+    <br><br>
+    <div  class="d-flex justify-content-center">
+    <ol class="pagination">
+        <li class="page-item"><a href="index.html" class="page-link">Home</a></li>
+        <li class="page-item"><a href="nykey-new.html" class="page-link">New Collections</a></li>
+        <li class="page-item"><a href="nykey-men.html" class="page-link">Men</a></li>
+        <li class="page-item"><a href="nykey-women.html" class="page-link active">Women</a></li>
+        <li class="page-item"><a href="nykey-kids.html" class="page-link">Kids</a></li>
+    </ol>
+    <a  href="#navbar"><i class="fa fa-arrow-circle-up fa-2x" style="color: black;" ></i> </a>
+</div>
+
+
+
+</body>
+</html>

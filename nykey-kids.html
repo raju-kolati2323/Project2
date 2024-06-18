@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>NYKEY</title>
+    <link href="./nykeylogo.jpeg" rel="icon">
+    <style>
+        
+        .collapse{margin-left: 370px;}
+        @media only screen and (max-width:1020px){
+            .container-fluid>.collapse{margin-left: 0px;}
+            .overlay{overflow: scroll;}
+        }
+
+        .nav-link,.fa-shopping-bag{display:inline; }
+        .fa-shopping-bag{ color:white;}
+        p,a{text-align: center;}
+        .carousel-inner{background-color: lightgrey}
+        .img-fluid{width:900px;}
+        .d1{height: 117.5px;}
+        a{text-decoration: none;}
+
+        .container {
+        position: relative;}
+        .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 95%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color:white;
+        text-align: justify;
+        border:3.5px solid black;
+        }
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        .text {
+          color: black;
+          font-size: 15px;
+          position: absolute;
+          top: 10%;
+          left: 10%;
+          max-width: 300px;
+        }
+
+
+        .fa-arrow-circle-up{position: absolute; left:97%}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="index.html" class="navbar-brand">&nbsp;&nbsp;<img class="ima-fluid" src="./nykeylogo.jpeg" height="25px" width="25px"></a>
+        <button class="btn btn-dark navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav" >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="mynav" >
+                <ul class="navbar-nav">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="nykey-new.html" class="nav-link">New Collections</a></li>
+                    <li><a href="nykey-men.html" class="nav-link">Men</a></li>
+                    <li><a href="nykey-women.html" class="nav-link">Women</a></li>
+                    <li><a href="nykey-kids.html" class="nav-link active">Kids</a></li>
+                    <br>
+                </ul>
+            </div>
+            <li class="nav-item"><a href="" class="nav-link "><i class="fa fa-shopping-bag"></i> <span class="badge bg-danger">0</span></a></li>
+        </div>
+    </nav>
+
+    <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" id="mycar">
+        <div class="carousel-inner d1">
+            <div class="carousel-item">
+                <p><br>New Styles on Sale: Up to 40% Off.<br>
+                <a href="nykey-new.html"><b>Shop All Our New Markdowns</b></a></p><br>
+            </div>
+            <div class="carousel-item active">
+                <p>Move, Shop, Customise & Celebrate With Us.<br>
+                   No matter what you feel like doing today, It’s better as a Member.
+                </p>
+                <p>
+                <a href="" align="center" class="btn btn-primary" data-bs-target="#mymodal" data-bs-toggle="modal" ><b>Join Us</b></a>
+                </p>
+                <div class="modal fade" id="mymodal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title">Login/</h1>
+                                <button class="btn btn-primary "> Sign UP</button>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form action='https://forms.zohopublic.in/rajukolati5/form/nykey/formperma/uE8i39_K8kgB33z5NpT_FWNi0DK2avqEf_R-CkDwUHA/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                                    <input type="hidden" name="zf_referrer_name" value="">
+                                    <input type="hidden" name="zf_redirect_url" value="">
+                                    <input type="hidden" name="zc_gad" value="">
+                                
+                                    <div class="form-group">
+                                        <label>Username/E-mail</label><br>
+                                        <input class="form-control" type="email" name="SingleLine" value="" fieldType=1 maxlength="255" placeholder="ex:abc@gmail.com" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine1" value="" fieldType=1 maxlength="255" placeholder="Enter a password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Conform Password</label><br>
+                                        <input class="form-control" type="password" name="SingleLine2" value="" fieldType=1 maxlength="255" placeholder="Conform your password" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Mobile Number</label><br>
+                                        <input class="form-control" type="text" name="SingleLine3" value="" fieldType=1 maxlength="255" placeholder="ex:1234567890" />
+                                    </div>
+                                    <br>
+                                    <div  align="center">
+                                    <button class="btn btn-success" type="submit"><em>Submit</em></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav1">
+        <a href="#shoes">Foot-wear</a> |
+        <a href="#clothes">Clothing</a> |
+        <a href="#accessories">Accessories & Equipments</a>
+    </nav>
+    <h1  align="center" >Kids Collection</h1>
+    <div align="center">
+        <img src="./kids.jpg" alt="Kids shoes, clothing & accessories"  width="500px" height="350px" style="width: 50%;">
+        <img src="./kids1.jpg" alt="Kids clothing"  width="400px" height="350px">
+    </div>
+
+    <br>
+    <section id="shoes">
+        <h2>&nbsp;&nbsp;&nbsp;Foot-wear</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes5.png" alt="Younger Kids' Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Younger Kids' Shoes<br>MRP : ₹ 5 095.00<br><br>Have you got five seconds? Then you've got time to get your kid into these Jordans. The hook-and-loop system makes it easy to open up the shoe and secure it onto little feet. And the look is 100% classic Jordan. They'll stay stylish and cool.
+                            <li>The hook-and-loop closure system makes on and off easy.</li>
+                            <li>Colour Shown: Black/Cement Grey/White/Fire Red</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan 1 Low Alt</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ks2.png" alt="Younger/Older Kids' Slides" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Younger/Older Kids' Slides<br>MRP : ₹ 1 595.00<br><br>Nike Kawa Slides are your super-easy slip-ons, ideal for any time. With a soft and flexible design, these sandals help tired feet recover after training or playtime.
+                            <li>Wavy grooves in the sole make these slides flexible, so every step feels natural.</li>
+                            <li>Colour Shown: Black/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Kawa</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./shoes6.png" alt="Baby/Toddler Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Baby/Toddler Shoes<br>MRP : ₹ 5 695.00<br><br> When it comes to style, it's important to start them young—and these baby Js are quite possibly the cutest shoes on the planet. The sturdy materials support learning feet and the high-top collar is as classic as it gets.   
+                            <li>The leather and synthetic uppers are flexible and durable for any adventure.</li>
+                            <li>Colour Shown: Black/White/Sail/Legend Medium Brown</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan 1 Retro</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ks1.png" alt="Older Kids' Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Shoes<br>MRP : ₹ 6 495.00<br><br>The Nike Dunk Low is an easy score for your wardrobe. This mid-80s hoops icon returns with super-durable construction and original colours. With ankle padding and rubber traction, this one is a slam dunk.
+                            <li>Full-length rubber outsole provides durable traction.</li>
+                            <li>Colour Shown: White/White/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Dunk Low</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ks3.png" alt="Older Kids' Slides" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Slides<br>MRP : ₹ 1 695.00<br><br>Totally cool. Totally comfy. Made from robust and flexible foam for comfort in every step, these secure-fitting slides feature a wide foot covering that helps hold your foot in place. An asymmetrical design gives you a distinct look.
+                            <li>Foam platform provides lightweight, durable cushioning.</li>
+                            <li>Colour Shown: Orange Blaze/University Red/Orange Peel</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Jordan Post</b>    
+                </div>
+            </div>    
+            
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./ks4.png" alt="Younger Kids' Shoes" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Younger Kids' Shoes<br>MRP : ₹ 3 495.00<br><br>Let your kid flash, dash and blast into the day with the help of shoes made especially for fun. No, they're not loaded with sugar or toys, but they do come in awesome colours and designs that'll have your little one reaching for them every day of the year.
+                            <li>A flexible, grippy tread helps kids find their footing on various surfaces.</li>
+                            <li>Colour Shown: Pink Foam/Summit White/White/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Revolution 7</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="clothes">
+        <h2>&nbsp;&nbsp;&nbsp;Clothing</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear5.png" alt="Older Kids' T-Shirt" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' T-Shirt<br>MRP : ₹ 1 495.00<br><br>Make room for fun. This midweight cotton tee has a little extra space in the body and sleeves, making it ideal for casual everyday wear.
+                            <li>Female model is wearing size S and is 4'6"</li>
+                            <li>Male model is wearing size M and is 4'9"</li>
+                            <li>Colour Shown: Barely Green</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike SB</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kc1.jpeg" alt="Older Kids' Dri-FIT Short-Sleeve Top" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Dri-FIT Short-Sleeve Top<br>MRP : ₹ 1 195.00<br><br>The ball's in your court. Will you serve, pass, shoot or drive? A go-to for keeping your cool in hot conditions, this top uses Nike Dri-FIT technology so you can keep playing, no sweat. And on top of that, the back panel is perforated (meaning lots of little holes) for added breathability. So go ahead, play longer.
+                            <li>100% polyester</li>
+                            <li>Colour Shown: Game Royal/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Trophy23</b>    
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./wear6.jpeg" alt="Older Kids' Repel Long-Sleeve Jacket" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Repel Long-Sleeve Jacket<br>MRP : ₹ 3 695.00<br><br>This lightweight pullover jacket is perfect for days when the forecast flips between warm sun and drizzly rain. A water-repellent finish helps you stay dry in unexpected showers, while mesh back panels and a half-zip design help keep you cool when the temps heat up.
+                            <li>Body/lining: 100% polyester</li>
+                            <li>Colour Shown: Fir/Saturn Gold/Saturn Gold</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike</b>    
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kc2.jpeg" alt="Older Kids' French Terry Joggers" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' French Terry Joggers<br>MRP : ₹ 2 295.00<br><br>Look to these French terry joggers to keep you comfy. The soft French terry fabric has a lightweight feel. Enjoy them whether you're on the court or in the classroom counting down the minutes till you can go and play again.
+                            <li>Body: 80% cotton/20% polyester. Pocket: 100% cotton.</li>
+                            <li>Colour Shown: Dark Grey Heather/Base Grey/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Club Fleece</b>    
+                </div>
+            </div>  
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kc3.png" alt="Older Kids Dri-FIT Shorts" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids Dri-FIT Shorts<br>MRP : ₹ 2 495.00<br><br>Made for all the ways you play—from training to running, these lightweight 2-in-1 shorts use next-level sweat-wicking technology to stay dry and cool. Woven outer shorts are airy and breathable, while stretchy inner shorts gives support and coverage you need.
+                            <li>Body: 94% polyester/6% elastane.</li>
+                            <li>Colour Shown: Bicoastal/Vintage Green/Black</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Multi Tech</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kc4.png" alt="Older Kids' Cargo Shorts" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Cargo Shorts<br>MRP : ₹ 2 795.00<br><br>Pockets are essential for any good adventure. Where else can you keep essentials like snacks, a key or the fun treasures you find along the way? An elastic waistband with adjustable buckle helps you find your perfect stay-put fit whether you're camping or hiking on your favourite local trail.
+                            <li>Body: 100% nylon. Mesh: 100% polyester.</li>
+                            <li>Colour Shown: Khaki/Khaki/Black/Summit White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike ACG</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+    <br>
+    <section id="accessories">
+        <h2>&nbsp;&nbsp;&nbsp;Accessories & Equipments</h2>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg1.png" alt="Older Kids' Cap" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Older Kids' Cap<br>MRP : ₹ 995.00<br><br>While the sun may make playing outside more fun, it can be distracting when you're up to bat, playing on the monkey bars or skating with friends. Shield your eyes with the curved bill on this Nike Club cap. A googly-eyed Swoosh logo adds a touch of fun while an adjustable strap and mid-depth design make this hat ideal for everyday wear.
+                            <li>100% polyester</li>
+                            <li>Colour Shown: Black/Photo Blue</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Club</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg2.png" alt="Kids' Backpack (25L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Kids' Backpack (25L)<br>MRP : ₹ 2 495.00<br><br>Made from densely woven polyester for heavyweight support and durability, this backpack features a roomy main compartment and a zip front pocket for stashing smaller items. Side pockets let you keep snacks or a water bottle within easy reach, while the padded shoulder straps help keep things comfortable.
+                            <li>30.5cm W x 43cm H x 15cm D</li>
+                            <li>Colour Shown: Smoke Grey/Photon Dust/Dark Smoke Grey</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Heritage</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg3.png" alt="Kids' Futura Bucket Hat" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Kids' Futura Bucket Hat<br>MRP : ₹ 995.00<br><br>Enjoy the sun and add some fun to your look with the Nike Apex Bucket Hat. As easy to throw on as it is to pack away when you're not wearing it, this lightweight hat keeps you comfortable whenever the sun's out and adventure is on the menu!
+                            <li>100% polyester</li>
+                            <li>Colour Shown: Black/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Apex</b>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg4.jpeg" alt="Kids' Cross-Body Bag (1L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Kids' Cross-Body Bag (1L)<br>MRP : ₹ 1 595.00<br><br>Whether you're shopping with friends or out on an adventure with family, this cross-body bag helps you keep your stuff within easy reach. Two zip pockets help secure small items, while an adjustable cross-body strap and haul loop give you multiple carrying options.
+                            <li>7" (18cm)W x 6"H x 2"D</li>
+                            <li>Colour Shown: Black/Black/White</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike</b>    
+                </div>
+            </div>    
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg5.png" alt="Kids' Unstructured Metal Swoosh Cap" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Kids' Unstructured Metal Swoosh Cap<br>MRP : ₹ 995.00<br><br>Step your Swoosh game up with this mid-depth, unstructured Club Cap. Its curved bill and metal Swoosh logo give your look a clean finish while sweat-wicking tech helps you stay cool and comfortable while you make the most of warm, sunny weather.
+                            <li>100% polyester.</li>
+                            <li>Colour Shown: Lilac Bloom</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Dri-FIT Club</b>    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="container">
+                    <img src="./kg6.jpeg" alt="Kids' Mini Backpack (11L)" class="img-fluid">
+                    <div class="overlay">
+                        <div class="text">Kids' Mini Backpack (11L)<br>MRP : ₹ 1 895.00<br><br>Whether you need a place to keep snacks for your after-school outings with friends or storage for all the cool things you find on a weekend hike, this mini backpack has you covered. And if you need a little more room, the front zip pocket has space for small items like lip balm, hair bands or that awesome rock you found on the trail.
+                            <li>33cm H x 25cm W x 13cm D</li>
+                            <li>Colour Shown: Hydrangeas/Viotech</li>
+                            <br><button style="background-color:green; color:white; border-radius: 10px;">Add To Bag</button>
+                        </div>  
+                    </div>
+                    <b class="d-flex justify-content-center text-dark">Nike Brasilia JDI</b>    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    
+
+    
+
+    <br><br>
+    <div  class="d-flex justify-content-center">
+        <ol class="pagination">
+            <li class="page-item"><a href="index.html" class="page-link">Home</a></li>
+            <li class="page-item"><a href="nykey-new.html" class="page-link">New Collections</a></li>
+            <li class="page-item"><a href="nykey-men.html" class="page-link">Men</a></li>
+            <li class="page-item"><a href="nykey-women.html" class="page-link">Women</a></li>
+            <li class="page-item"><a href="nykey-kids.html" class="page-link active">Kids</a></li>
+        </ol>
+        <a  href="#navbar"><i class="fa fa-arrow-circle-up fa-2x" style="color: black;" ></i> </a>
+    </div>
+    
+
+
+</body>
+</html>
